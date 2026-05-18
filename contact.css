@@ -1,0 +1,133 @@
+body{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+center{
+    padding-top: 10%;
+}
+form input{
+    width: 350px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 20px;
+    font-size: medium;
+    
+}
+
+form textarea{
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+    font-size: 18px;
+    padding-left: 20px;
+    
+}
+
+form button{
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 35px;
+    background-image:radial-gradient(rgb(116, 108, 108),rgb(27, 42, 50));
+    backdrop-filter: blur(8px);
+    cursor: pointer;
+}
+
+/*copy of navigation styles in home*/
+ul li {
+    display: flex;
+    float: right;
+    padding-right: 1%;
+    padding-top: 1%;                   
+    z-index: 10;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: sans-serif;
+    padding: 8px 15px;  
+    border-radius: 6px; 
+    transition: 0.3s; 
+     
+}
+
+
+ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    color: #00ffff;
+    border-radius: 20px;
+}
+footer{
+    height:300px;
+    background-color:black;
+}
+
+footer p{
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.p4{
+    position: absolute;
+    top: 410%;
+    left: 20%;
+}
+
+.p5{
+    position: absolute;
+    top: 410%;
+    left: 60%;
+}
+
+
+footer a{
+    color: aqua;
+    font-size: large;
+    
+}
+
+.a1{
+    position: absolute;
+    top: 415%;
+    left: 17%;
+}
+.a2{
+    position: absolute;
+    top: 420%;
+    left: 17%;
+}
+
+footer textarea{
+    width: 400px;
+    border-radius: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 415%;
+    right: 17%;
+}
+
+.sub{
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    top: 415%;
+    right: 10%;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+footer div{
+    color: aliceblue;
+    position: absolute;
+    top: 430%;
+    left: 40%;
+}
+
